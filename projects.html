@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Projects</title>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="p5.js"> </script>
+</head>
+
+  <body>
+  
+<div class="header">
+  <h1>Kaitlyn Wang</h1>
+</div>     
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+      <a href="education.html">Education</a>
+  <a href="resume.html">Resume</a>
+  <a href="projects.html">Projects</a>
+  
+</div>
+<main>
+<h1>Projects</h1>
+<h3>File Sharing Website | HTML/CSS, PHP</h3>
+<h4>Developed a file sharing website where users can login/signup and upload, view, delete, share, and rename files <br> Website hosted on AWS EC2 instance <br><a href="http://ec2-34-227-178-71.compute-1.amazonaws.com/~cskaitlyn/filesharingsite/index.html">Click here to view</a></h4>
+
+
+<h3>Wang Medical Website | HTML/CSS</h3>
+<h4>Developed a website for a medical clinic<br>Features an about, services, FAQ, contact, and updates page<br><a href="https://Wang-Medical.kaitlynwang2.repl.co">Click here to view temporary site</a></h4>
+
+<h3>Calculator | HTML, PHP</h3>
+<h4>Coded a functioning calculator that can add, subtract, multiply, or divide two numbers<br><a href="http://ec2-34-227-178-71.compute-1.amazonaws.com/index.html">Click here to view</a></h4>
+
+
+<!--
+<h3>App</h3>
+<h4>mySkin- an app that sorts out recommended and not recommended skin care ingredients based on skin type, features skin care tips and educational quizzes</h5>
+
+<h4>Preview</h4>
+<img style="height: 350px; margin: 10px;border: 1px solid #676767;"src="preview.jpg">
+<img style="height:350px; margin:10px;border: 1px solid #676767;" src="preview2.JPG">
+<img style="height:350px; margin:10px;border: 1px solid #676767;" src="preview3.JPG">
+
+<h3>Games</h3>
+<h5>Use the left/right arrow keys to help the dog collect the bones</h5>
+ <div><iframe style="position:relative;" src="https://arcade.makecode.com/---run?id=_CAwC8t1U7CXD" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+<br />
+<script id="script" type="text/javascript">
+
+	
+var x;
+var displayH; 
+var displayHx2; 
+var r;
+var g;
+var b;
+var randomSize;
+
+function setup(){ 
+displayH = displayHeight; 
+displayHx2 = displayH*2;
+
+createCanvas(1000, displayHx2); 
+background(0); 
+
+x=0;
+r=0;
+g=0;
+b=0;
+randomSize=0;
+fill(255, 153, 0);
+rect(0, displayHx2, 1000, displayH);
+}
+
+function draw(){ 
+noStroke();
+fill(196, 239, 255);
+rect(0,0, 1000, displayHeight);
+
+
+scale(2);
+noStroke();
+fill(224, 195, 156);
+rect(0,200, 1000, 200);
+fill(0);
+rect(0,250, 1000,100);
+strokeWeight(5);
+stroke(255);
+line(19, 300, 47, 300);
+line(77, 300, 109, 300);
+line(147, 300, 177, 300);
+line(212, 300, 256, 300);
+line(283, 300, 326, 300);
+line(359, 300, 387, 300);
+strokeWeight(2);
+stroke(4, 70, 222);
+fill(190, 234, 239);
+rect(83+x,278,71,49); 
+fill(150, 150, 150);
+ellipse(82+x,327,20,20); 
+ellipse(154+x,327,20,20); 
+noStroke();
+fill(255);
+
+ellipse(109-x,46,50,50);
+ellipse(147-x,66,50,50);
+ellipse(80-x,74,50,50);
+ellipse(115-x,85,50,50);
+
+ellipse(309-x,66,50,50);
+ellipse(347-x,86,50,50);
+ellipse(280-x,94,50,50);
+ellipse(315-x,105,50,50);
+fill(0);
+text("Moving Car: Click and Move Left/Right Arrow Keys", 50, 150);
+fill(250);
+text("Drawing: Click and Drag to Draw", 50, 500);
+
+if (keyIsDown(LEFT_ARROW))	{ 
+x--; 
+}
+if (keyIsDown(RIGHT_ARROW))	{ 
+x++; 
+}
+}
+
+function mouseDragged(){
+if(displayH < (mouseY-100) && (mouseY+100) < displayHx2){
+        r = random(0,255);
+        g = random(0,255);
+        b = random(0,255);
+        randomSize = random(0,100);
+        noStroke();
+        fill(r,g,b);
+        ellipse((mouseX/2), (mouseY/2), randomSize, randomSize);
+}
+}    
+
+</script>-->
+</main>
+  </body>
+</html>
