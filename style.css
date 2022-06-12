@@ -57,6 +57,85 @@ body {
 }
 
 
+.container{
+  text-align:center;
+}
+#text .subtitle {
+	margin-bottom:40px;
+}
+
+
+
+#education-title img {
+	width: 15%;
+}
+
+#school {
+	align-items: flex-start;
+}
+
+#school p {
+	font-size: 14px;
+}
+
+#school * {
+	margin: 5px;
+}
+
+#coursework {
+	align-items: flex-start;
+	font-size: 120%;
+}
+
+li {
+	margin: 5px;
+  text-align: left;
+}
+
+ul {
+	list-style-type: circle;
+}
+.container {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+#me {
+  width: 300px;
+  border-top: 20px solid #e5e5e5;
+	box-shadow: 12px 12px 1px #D6EAEF;
+	overflow-y:hidden;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #D6EAEF;
+  position: relative;
+	height: 300px;
+	width: 350px;
+	margin: 3%;
+}
+.card-title{
+  background-color:#676767;
+  color: #FFF;
+}
+
+.card-body{
+  margin-left:10px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 320px) {
   #somethingorother {
     width: 120px ;
